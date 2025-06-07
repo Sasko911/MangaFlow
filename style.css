@@ -1,0 +1,113 @@
+/* Réinitialisation des marges et des bordures */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+}
+
+/* Section Hero */
+.hero {
+    background-color: #3498db;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Section des animés populaires */
+.featured {
+    margin-top: 40px;
+}
+
+.featured h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.anime-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.anime-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.anime-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.anime-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.anime-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
